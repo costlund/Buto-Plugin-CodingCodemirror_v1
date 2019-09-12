@@ -10,7 +10,6 @@ class PluginCodingCodemirror_v1{
     wfPlugin::includeonce('wf/array');
     $data = new PluginWfArray($data);
     $id = $data->get('data/id');
-    
     if($data->get('data/mode')=='yml'){
       $mode = new PluginWfYml(__DIR__.'/mode/yml.yml');
       $mode = json_encode($mode->get());
