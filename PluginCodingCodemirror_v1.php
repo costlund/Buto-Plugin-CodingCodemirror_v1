@@ -18,7 +18,7 @@ class PluginCodingCodemirror_v1{
       $mode = json_encode($mode->get());
     }
     $element = new PluginWfYml(__DIR__.'/element/apply.yml');
-    $script = "var htmlEditor = CodeMirror.fromTextArea(document.getElementById('$id'),  $mode );";
+    $script = "var htmlEditor = CodeMirror.fromTextArea(document.getElementById('$id'),  $mode ).on('change', editor => {document.getElementById('$id').value=editor.getValue();});";
     $element->setByTag(array('script' => $script));
     wfDocument::renderElement($element->get());
   }
