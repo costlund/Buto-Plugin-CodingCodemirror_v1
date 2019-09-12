@@ -1,0 +1,45 @@
+-
+  type: link
+  attribute:
+    rel: stylesheet
+    href: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.css
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/xml/xml.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/javascript/javascript.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/htmlmixed/htmlmixed.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/clike/clike.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/xml/xml.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/css/css.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/php/php.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/yaml/yaml.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/addon/edit/matchbrackets.js

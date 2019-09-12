@@ -1,0 +1,5 @@
+lineNumbers: true
+matchBrackets: true
+mode: "application/x-httpd-php"
+indentUnit: 2
+indentWithTabs: false
