@@ -4,6 +4,11 @@
     rel: stylesheet
     href: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.css
 -
+  type: link
+  attribute:
+    rel: stylesheet
+    href: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/addon/hint/show-hint.css
+-
   type: script
   attribute:
     src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.js
@@ -43,3 +48,7 @@
   type: script
   attribute:
     src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/addon/edit/matchbrackets.js
+-
+  type: script
+  attribute:
+    src: //cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/addon/hint/show-hint.js

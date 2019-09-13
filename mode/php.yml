@@ -1,5 +1,9 @@
 lineNumbers: true
 matchBrackets: true
-mode: "application/x-httpd-php"
 indentUnit: 2
 indentWithTabs: false
+extraKeys: 
+  Ctrl-Space: "autocomplete"
+mode:
+  name: php
+  globalVars: true
